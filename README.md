@@ -15,7 +15,7 @@ claude
 **2. Run these commands one at a time**, waiting for each to complete:
 
 ```
-/plugin marketplace add ada-ai-org/ada-drive
+/plugin marketplace add ada-ai-org/marketplace
 ```
 ```
 /plugin install ada-drive@ada-ai
