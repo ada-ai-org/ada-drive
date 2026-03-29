@@ -1,0 +1,10 @@
+{
+  "name": "ada-drive",
+  "description": "A shared filesystem for humans and AI agents — local-first, GitHub-synced, works with Claude Code, Codex, and any agent.",
+  "version": "0.3.14",
+  "author": {
+    "name": "Ada AI"
+  },
+  "license": "MIT",
+  "keywords": ["drive", "filesystem", "agents", "collaboration", "github", "memory"]
+}

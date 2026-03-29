@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ada-drive": {
+      "command": "bash",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/start-server.sh"],
+      "cwd": "${CLAUDE_PLUGIN_ROOT}"
+    }
+  }
+}

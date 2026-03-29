@@ -1,0 +1,20 @@
+[project]
+name = "ada-drive"
+version = "0.3.8"
+description = "A shared filesystem for humans and AI agents — local-first, GitHub-synced, works with Claude Code, Codex, and any agent."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.0",
+]
+
+[project.scripts]
+ada-drive = "drive.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/drive"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

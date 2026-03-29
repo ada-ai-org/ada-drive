@@ -1,0 +1,22 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/install-deps.sh"
+          },
+          {
+            "type": "command",
+            "command": "command -v git >/dev/null || echo '⚠ ada-drive: git is required. Install it: https://git-scm.com/downloads'"
+          },
+          {
+            "type": "command",
+            "command": "command -v gh >/dev/null || echo '⚠ ada-drive: gh CLI is required for GitHub sync. Install it: https://cli.github.com'"
+          }
+        ]
+      }
+    ]
+  }
+}
